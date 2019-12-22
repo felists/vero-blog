@@ -4,12 +4,14 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    {resolve: `gatsby-plugin-netlify-cms`},
   ],
+
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `Idea dumps`,
+    author: `vernath`,
+    description: `This is where i'm dumping my random ideas`,
     social: [
       {
         name: `twitter`,
